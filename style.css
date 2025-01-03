@@ -5,25 +5,22 @@
   overflow-x: hidden;
   scrollbar-width: none;
   font-family: "Barlow", sans-serif;
-
+  font-size: 12px; /* Default smallest font size for all elements */
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
- 
-   background-image: url(bg.avif) ;
-   background-color: rgba(255, 255, 255, 0.274);
+  background-image: url(bg.avif);
+  background-color: rgba(255, 255, 255, 0.274);
   background-position: center;
-  background-size: cover; 
-
+  background-size: cover;
 }
 
 .page1 {
   height: 100vh;
   width: 100vw;
-
   display: flex;
   flex-direction: column;
   padding: 3vw;
@@ -32,7 +29,6 @@ body {
 .top1 {
   height: 50%;
   width: 100%;
-
   display: flex;
 }
 
@@ -44,7 +40,6 @@ body {
   justify-content: space-between;
   background-color: black;
   color: white;
-
 }
 
 .brand {
@@ -59,7 +54,7 @@ body {
 }
 
 .brand h3 {
-  font-size: 40px;
+  font-size: 12px;
   font-weight: 300;
   letter-spacing: 2px;
   color: rgb(159, 255, 223);
@@ -68,29 +63,25 @@ body {
 }
 
 .t-left h1 {
-  font-size: 100px;
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: 400;
-
 }
 
 .t-right {
   width: 50%;
-
   padding: 1vw 2vw;
 }
 
 .bottom1 {
+
   height: 50%;
   width: 100%;
-
-
   display: flex;
 }
 
 .b-left {
   width: 50%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,19 +92,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
 }
 
 .b-l-content h1 {
-  font-size: 100px;
+  font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
-
 }
 
 .b-l-content p {
-  font-size: 25px;
+  font-size: 12px;
   letter-spacing: 2px;
   text-transform: capitalize;
   text-align: right;
@@ -126,48 +114,45 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   padding: 1vw 2vw;
 }
 
 .b-r-content {
   height: 80%;
-
   display: flex;
   gap: 1vw;
+    padding: 20px 0;
 }
 
 .date {
   height: 100%;
   width: 33%;
-
-
 }
 
 .month {
   display: flex;
   flex-direction: row;
   gap: 1.5vw;
+
 }
 
 .month h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 30px;
   font-weight: 300;
   color: rgb(110, 110, 110);
 }
 
 .month p {
-  font-size: 40px;
+  font-size: 25px;
   color: rgb(110, 110, 110);
-  margin-top: 7%;
 
 }
 
 .uper-line {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 9px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 500;
@@ -191,7 +176,6 @@ body {
   height: 50%;
   width: 100%;
   display: flex;
- 
 }
 
 .t-left2 {
@@ -211,13 +195,13 @@ body {
 }
 
 .brand-color h1 {
-  font-size: 9vw;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: aqua;
 }
 
 .brand-color h2 {
-  font-size: 5vw;
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -225,100 +209,101 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
- 
   gap: 1vw;
   padding: 1vw 2vw;
 }
 
-.t-right2-sec{
-  height:75%;
- 
+.t-right2-sec {
+  height: 75%;
   display: flex;
   gap: 1vw;
- 
 }
-.t-right-sec{
+
+.t-right-sec {
   height: 100%;
   width: 50%;
- 
-  
 }
-.t-right-sec h1{
-  font-size:3vw;
+
+.t-right-sec h1 {
+  font-size: 35px;
   font-weight: 300;
   margin-top: 20%;
   text-align: center;
-  
 }
-.t-right-sec p{
-  padding: 10px 5px ;
-  font-size: 27px;
+
+.t-right-sec p {
+  padding: 10px 5px;
+  font-size: 12px;
   margin-top: 15%;
   letter-spacing: 2px;
   line-height: 1.2;
 }
+
 .bottom2 {
   height: 50%;
   width: 100%;
   display: flex;
- 
 }
 
 .b-left2 {
   width: 50%;
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1vw;
   padding: 1vw 2vw;
 }
-.b-left2-content{
+
+.b-left2-content {
   display: flex;
   justify-content: space-between;
-  
 }
-.b-left2-content h1{
-  font-size: 4vw;
+
+.b-left2-content h1 {
+  font-size: 35px;
   letter-spacing: 2px;
   font-weight: 300;
   text-transform: uppercase;
 }
-.b-left2-content p{
+
+.b-left2-content p {
   width: 70%;
-  font-size: 27px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: 2px;
 }
+
 .b-right2 {
   width: 50%;
- 
   gap: 1vw;
   padding: 1vw 2vw;
   display: flex;
   flex-direction: column;
- justify-content: space-between;
+  justify-content: space-between;
 }
-.b-right2-content{
+
+.b-right2-content {
   display: flex;
-gap: 1vw;
+  gap: 1vw;
 }
-.b-right2-content img{
-   box-shadow:5px 5px 10px black;
-   object-fit: cover;
+
+.b-right2-content img {
+  box-shadow: 5px 5px 10px black;
+  object-fit: cover;
 }
-.page3{
+
+.page3 {
   height: 60vh;
   width: 100vw;
-
   display: flex;
   padding: 3vw;
 }
-.left3{
+
+.left3 {
   width: 50%;
   height: 100%;
-background-color: black;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -326,45 +311,43 @@ background-color: black;
   color: white;
 }
 
-.left3-content{
+.left3-content {
   display: flex;
-
-
+align-items: center;
 }
-.left3-content h1{
-  font-size: 9vw;
+
+.left3-content h1 {
+  font-size: 60px;
   color: aqua;
-  width: 30%;
+
   font-weight: 300;
 }
-.left3-content h2{
-  font-size: 5vw;
+
+.left3-content h2 {
+  font-size: 50px;
   font-weight: 300;
-  margin-top: 6%;
+
 }
-.right3{
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+
+.right3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
   height: 100%;
   padding: 1vw 2vw;
 }
-.right3-content{
+
+.right3-content {
   display: flex;
-  height: 75%;
 
 }
-.right3-content p{
-  font-size: 27px;
-  font-weight: 300;
+
+.right3-content p {
+  font-size: 15px;
+  padding: 15px 0;
   line-height: 1.2;
-  width: 50%;
-padding-top: 10%;
-  letter-spacing: 2px;
 }
 .right3-content img{
   object-fit: cover;
-  box-shadow:5px 5px 10px rgb(0, 0, 0);
-
 }
